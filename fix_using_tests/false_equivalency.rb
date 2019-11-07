@@ -17,10 +17,10 @@ def selection(num)
      output = "HAM HAM HAM IN MY TUMMY"
   end
   output
+  binding.pry
 end
 
 def runner
   prompt_user
   selection(get_user_input)
 end
-binding.pry

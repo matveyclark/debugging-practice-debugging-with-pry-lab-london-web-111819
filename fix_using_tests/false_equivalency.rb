@@ -12,10 +12,11 @@ end
 
 def selection(num)
   if num = 1
-     "YUM YUM MUNCH MUNCH MUNCH"
+     output = "YUM YUM MUNCH MUNCH MUNCH"
   else
-     "HAM HAM HAM IN MY TUMMY"
+     output = "HAM HAM HAM IN MY TUMMY"
   end
+  output
 end
 
 def runner

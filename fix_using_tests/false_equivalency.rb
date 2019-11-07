@@ -11,16 +11,15 @@ def prompt_user
 end
 
 def selection(num)
-  # if num = 1
-  #   output = "YUM YUM MUNCH MUNCH MUNCH"
   if num = 1
-     output = "HAM HAM HAM IN MY TUMMY"
+     "YUM YUM MUNCH MUNCH MUNCH"
+  else
+     "HAM HAM HAM IN MY TUMMY"
   end
-  output
-  binding.pry
 end
 
 def runner
   prompt_user
   selection(get_user_input)
 end
+binding.pry

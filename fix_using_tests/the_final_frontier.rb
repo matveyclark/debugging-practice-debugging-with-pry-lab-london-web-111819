@@ -19,7 +19,6 @@ def greet_crew (crew)
     new_crew.push("Hello #{crew_member}.")
   end
   new_crew
-   binding.pry
 end
 
 def engage
